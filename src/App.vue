@@ -136,7 +136,6 @@
 			}
 			const optionsList = options => {
 				let optionsHTML = ''
-				debugger
 				if (typeof options[0] === 'string') {
 					options.forEach(element => {
 						if (element.includes('https')) {
@@ -193,7 +192,6 @@
 				let tempData = extractJSONFromString(data)
 				try {
 					var check_flags = null
-					debugger
 					if (tempData && tempData.check_flags) {
 						check_flags = `<div class="deep-chat-temporary-message">
 							<button class="deep-chat-button deep-chat-suggestion-button" style="border: 1px solid green">Yes</button>
