@@ -1,0 +1,26 @@
+{
+  "name": "ryobi-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "deep-chat": "^1.4.11",
+    "deep-chat-web-llm": "^0.0.27",
+    "markdown-it": "^14.0.0",
+    "marked": "^12.0.0",
+    "metascraper": "^5.45.0",
+    "vue": "^3.4.15",
+    "vue-meta": "^2.4.0",
+    "vue-meta-info": "^0.1.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.1.0"
+  }
+}
